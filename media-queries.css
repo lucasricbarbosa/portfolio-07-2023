@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburguer-nav {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-56 {
+      padding: 0 40px;
+    }
+  }

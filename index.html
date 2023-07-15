@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./media-queries.css">
+</head>
+
+<body>
+    <nav id='desktop-nav'>
+        <div class="logo">Lucas Ricardo</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Meus Projetos</a></li>
+                <li><a href="#contact">Fale Comigo!</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburguer-nav">
+        <div class="logo">Lucas Ricardo</div>
+        <div class="hamburguer-menu">
+            <div class="hamburguer-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Sobre Mim</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experiência</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Meus Projetos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Fale Comigo!</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <main id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/fotowpp.jpg" class="profile-picture" alt="Foto do Lucas Ricardo">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Olá, meu nome é</p>
+            <h1 class="title">Lucas Ricardo</h1>
+            <p class="section__text__p2">Desenvolvedor Front-End</p>
+            <div class="btn-container">
+                <button class="button-56" role="button" onclick="window.open('./assets/curriculo-2023-06-att.pdf')">
+                    <Main></Main>Meu Currículo
+                </button>
+                <button class="button-56" onclick="location.href = './#contact'">Meus Contatos</button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/lucas-ricardo-barbosa-288bb8211/" target="_blank"><img
+                        src="./assets/linkedin.png" alt="Link do meu perfil do LinkedIn" class="icon"></a>
+                <a href="https://github.com/lucasricbarbosa" target="_blank"><img src="./assets/github.png"
+                        alt="Link do meu perfil do GitHub" class="icon"></a>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <p class="section__text__p1">Saiba Mais</p>
+        <h2 class="title">Sobre Mim</h2>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/front-image.png" alt="Foto de Perfil" class="about-pic">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
