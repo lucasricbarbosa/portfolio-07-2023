@@ -395,9 +395,28 @@ article .icon {
 
 .progress-bar div {
   height: 100%;
-  width: 60%;
   background-color: #000;
   border-radius: 10px;
+}
+
+.progress-bar-html, .progress-bar-css {
+    width: 75%;
+}
+
+.progress-bar-javascript {
+    width: 55%;
+}
+
+.progress-bar-figma, .progress-bar-frameworks, .progress-bar-next {
+    width: 35%;
+}
+
+.progress-bar-git {
+    width: 60%;
+}
+
+.progress-bar-node, .progress-bar-sql {
+    width:45%;
 }
 
 .button-27 {
@@ -480,7 +499,7 @@ article .icon {
 }
 
 #contact {
-  margin-top: 55%;
+  margin-top: 45%;
   display: flex;
   justify-content: center;
   flex-direction: column;

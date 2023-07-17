@@ -82,6 +82,10 @@
     .button-56 {
         padding: 2rem;
     }
+
+    #contact {
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width: 600px) {
