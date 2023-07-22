@@ -92,6 +92,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    #profile {
+        opacity: 1;
+      }
+}
+
 @media (max-width: 600px) {
     .button-56 {
       padding: 0 40px;
