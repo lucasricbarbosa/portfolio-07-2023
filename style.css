@@ -546,3 +546,23 @@ footer p {
     text-align: center;
     margin-top: 1rem;
 }
+
+#profile {
+  opacity: 0.1;
+  transition: all 0.5s ease-in-out;
+}
+
+#profile.visible {
+  opacity: 1; /* Quando a classe 'visible' é aplicada, a opacidade é definida como 1 para exibir o item */
+  transform: translateY(30px); /* A animação de baixo para cima é ativada */
+}
+
+.details-container {
+  opacity: 0.1;
+  transition: all 0.5s ease-in-out;
+}
+
+.details-container.visible {
+  opacity: 1; /* Quando a classe 'visible' é aplicada, a opacidade é definida como 1 para exibir o item */
+  transform: translateX(5px); /* A animação de baixo para cima é ativada */
+}

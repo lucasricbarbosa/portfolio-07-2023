@@ -7,6 +7,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    
+    #projects {
+        margin-top: 160px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
